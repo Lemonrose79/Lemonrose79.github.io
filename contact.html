@@ -1,51 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-	<link href="assets/css/style.css" rel="stylesheet">
-	<meta charset="UTF-8">
-	<title></title>
+    <meta charset="UTF-8">
+    <title>About Leslie Monrose</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <!-- My External CSS -->
+    <link href="assets/style.css" rel="stylesheet">
 </head>
+
+
 <body>
-	<header>
-		<div class="banner">
-			<header>
-				<h1>Leslie Monrose</h1>
-				<main>
-					<article>
-						<header>
-							<ul>
-								<li>
-									<a href="index.html">About</a>
-								</li>
-								<li>
-									<a href="contact.html">Contact</a>
-								</li>
-								<li>
-									<a href="portfolio.html">Portfolio</a>
-								</li>
-							</ul>
-						</header>
-						<h1>Contact</h1>
-						<ul>
-							<li class="menuItem">Email:Lemonrose79@gmail.com</li>
-							<li class="menuItem">GitHub: <a href="https://github.com/Lemonrose79">@Lemonrose79</a>
-							</li>
-							<li class="menuItem">Portfolio: (coming soon)</li>
-						</ul>
-						<form>
-							Name:<br>
-							<input name="name" type="text"><br>
-							E-mail:<br>
-							<input name="e-mail" type="text"> Message:<br>
-							<input name="Message" type="message"><br>
-						</form>
-						<footer>
-							<p>Copyright© 2019</p>
-						</footer>
-					</article>
-				</main>
-			</header>
-		</div>
-	</header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#" id=header-style>Leslie Monrose</a>
+        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-12 secondary">
+            <h2>Contact</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 contact-form">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">
+                    </small>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container contact-form">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Contact</h1>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control mb-3" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="example@gmail.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                        </div>
+                        <button type="Submit" class="btn btn-primary mb-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 footer">
+                    <!-- FOOTER(Copyright) -->
+                    <p>Copyright© 2019</p>
+                </div>
+            </div>
+        </div>
+
 </body>
+
 </html>
