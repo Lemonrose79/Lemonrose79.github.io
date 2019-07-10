@@ -1,0 +1,96 @@
+/* body {
+  background-image: body {
+  background-image: url(".png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+;
+  width: 100%
+} */
+
+h1 {
+  font-size: 43px;
+  border: solid 5px magenta;
+  background: white;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right:10%;
+  padding: 15px;
+  font-family: 'Faster One', cursive;
+}
+
+h2 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+
+/* img {
+  margin: 60px;
+  border: solid 10 px black;
+} */
+
+.jumbotron{
+  margin-bottom: 5em;
+}
+
+/* 
+.sidebar {
+  padding: 5px;
+  position: relative;
+  border-top: solid magenta 2px;
+  border-bottom: solid magenta 2px;
+  margin-bottom: 5px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+} */
+
+span {
+  border: solid magenta 2px;
+  padding-left: 3px;
+  padding-right:3px;
+  background-color: lightgreen; 
+  font-size: 15px;
+}
+
+.flex-wrap{
+
+}
+
+
+
+.container{
+  border:solid 10 px magenta;
+  background-image: ;
+}
+
+/* This is your major header, get some pretty  font for this */
+.display-4{
+  font-size: 50px;
+  font-color: black;
+  font-family: 'Lobster Two', cursive;
+
+}
+
+.body {
+  background-color:aqua;
+  margin-top: 5px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5px;
+  text-align: center;
+  border: solid 3px magenta;
+}
+
+#currentword {
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#scoreboard {
+  padding: 20px;
+}
